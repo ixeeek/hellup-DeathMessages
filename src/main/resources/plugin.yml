@@ -1,0 +1,22 @@
+name: HellupDeathMessages
+version: '${project.version}'
+main: me.ixek.hellupdeathmessages.CustomDeathMessages
+api-version: 1.19
+authors: [ ixek ]
+description: hellup.pl minecraft server death messages
+website: hellup.pl
+
+
+commands:
+  helldm:
+    aliases: hellupdeathmessages
+    description: Command used for reloading.
+    permission: cdm.reload
+
+permissions:
+  helldm.reload:
+    description: Permission used for reloading.
+  helldm.updates:
+    description: Permission used for sending update messages to ops.
+  helldm.toggle:
+    description: Permission for toggle features in config.
